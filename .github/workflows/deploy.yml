@@ -1,0 +1,43 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      VITE_GOOGLEAPIKEY: ${{ secrets.VITE_GOOGLEAPIKEY }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build app
+        run: npm run build
+
+      - name: Deploy to server
+        uses: easingthemes/ssh-deploy@v2
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_PASSWORD }} # Use SSH private key for authentication
+          REMOTE_HOST: ${{ secrets.SERVER_HOST }} # Remote server's IP address
+          REMOTE_USER: ${{ secrets.SERVER_USERNAME }} # Remote server's username
+          SOURCE: dist/ # Path to the build directory
+          TARGET: /var/www/madrassa-result/dist/ # Remote deployment directory
+      - name: Realod nginx
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USERNAME }}
+          key: ${{ secrets.SERVER_PASSWORD }}
+          script: |
+            sudo systemctl reload nginx

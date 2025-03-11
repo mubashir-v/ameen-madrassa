@@ -151,7 +151,7 @@ function GoogleSheetData() {
                   </p>
                 ) : (
                     <p className="flex justify-center items-center w-full text-gray-500 text-xs">
-                    Select Student
+                    Select Class and Student
                   </p>
                 )}
                 <div className="h-12 p-0 m-0 max-w-sm min-w-[70px]">

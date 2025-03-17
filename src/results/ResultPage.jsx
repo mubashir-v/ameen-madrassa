@@ -220,7 +220,7 @@ function GoogleSheetData() {
                             {key}
                           </div>
                           <div className="flex items-center px-4 text-gray-500 text-xs w-1/3">
-                            {`${value} / 100`}
+                            {`${value}`}
                           </div>
                         </div>
                       )
@@ -231,7 +231,7 @@ function GoogleSheetData() {
                       Total
                     </div>
                     <div className="flex items-center px-4 text-gray-500 text-xs w-1/3">
-                      {`${totalObtained} / ${totalPossible}`}
+                      {`${totalObtained}`}
                     </div>
                   </div>
                   {filteredStudent["PASSED"] == "PASS" ? (

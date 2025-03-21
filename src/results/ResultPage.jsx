@@ -7,17 +7,25 @@ const classOptions = [
   { value: "STD 2", label: "STD 2" },
   { value: "STD 3", label: "STD 3" },
   { value: "STD 4", label: "STD 4" },
-  { value: "STD 6", label: "STD 6" },
-  { value: "STD 9", label: "STD 9" },
+  // { value: "STD 6", label: "STD 6" },
+  // { value: "STD 9", label: "STD 9" },
 ];
 
+// https://docs.google.com/forms/d/e/1FAIpQLSfqZoMka2T6Xpfx46BRbo9lweuI3w4VV4JDu-AOY3u2f_EHwA/viewform?usp=header
+
+// https://docs.google.com/forms/d/e/1FAIpQLSeZvkGwWsP8pJnaRZV8mNlIu-pr9zDEo5G4EYoUWFqioXRVjQ/viewform?usp=header
+
+// https://docs.google.com/forms/d/e/1FAIpQLScEsDHRgngoazJXRAK3ObvtlMxKnzZGfT8KVFOYQTPcKcIwog/viewform?usp=header
+
+
+// https://docs.google.com/forms/d/e/1FAIpQLSe57tPzlFrLrYsEWuyRNut2D1xLHLyHu3lKQFiE6vWL76I61A/viewform?usp=header
 const sheetIds = {
-  "STD 1": "1SrX7WH2uACDgkr4c56Wvhn5HTPpj6VOV9zpy8j_UJJs",
-  "STD 2": "1YbjN9Ib5NEJKztNwnXqvrRdp5-P15Y9IpLRrqJQKLPw",
-  "STD 3": "1Cpvtlgf-bLb8qL0aN9chMiFavXmZ1km8avj61zb1h4w",
-  "STD 4": "1oHCQtwdDJ7E_HqvqA42PRZtL52ty6PTeaCpKl3XmOp4",
-  "STD 6": "1x4aoTQHilXdKN9lvJO2Gmx_GLTBK9d9miRgibqPwv5c",
-  "STD 9": "1djB6kghDjlDYGmt8qgDsPxmtAJuyouHtC9k6kM3jFuI",
+  "STD 1": "1QNhThPdOSeQ0RkdLpsGVyPLn0tj5xIpVe2acN_8OtL0",
+  "STD 2": "1Nl3mRuv7E1CCfx6QnUB6znF2P6wpBSxEB0xPvfi2zoo",
+  "STD 3": "1Cpvtlgf-1typfD2KoKGFIfSMNPPhK1jrMIm_J8bOKXr1nFLT5yFU",
+  "STD 4": "1_XqEAcGKpjzC3F0XdhWro930OFF34DW3QgEbJNurQww",
+  // "STD 6": "1x4aoTQHilXdKN9lvJO2Gmx_GLTBK9d9miRgibqPwv5c",
+  // "STD 9": "1djB6kghDjlDYGmt8qgDsPxmtAJuyouHtC9k6kM3jFuI",
 };
 import madrassaLogo from "../assets/madrassaLogo.png";
 const excludedFields = ["Timestamp", "Student Name", "PASSED"];

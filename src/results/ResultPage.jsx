@@ -7,7 +7,7 @@ const classOptions = [
   { value: "STD 2", label: "STD 2" },
   { value: "STD 3", label: "STD 3" },
   { value: "STD 4", label: "STD 4" },
-  // { value: "STD 6", label: "STD 6" },
+  { value: "STD 6", label: "STD 6" },
   // { value: "STD 9", label: "STD 9" },
 ];
 
@@ -19,12 +19,14 @@ const classOptions = [
 
 
 // https://docs.google.com/forms/d/e/1FAIpQLSe57tPzlFrLrYsEWuyRNut2D1xLHLyHu3lKQFiE6vWL76I61A/viewform?usp=header
+
+// https://docs.google.com/forms/d/e/1FAIpQLSe-DPeRyOLOuXp3WKArf9yZL8ujkEBSgf9Si0771e-yYDi3lQ/viewform?usp=header
 const sheetIds = {
   "STD 1": "1QNhThPdOSeQ0RkdLpsGVyPLn0tj5xIpVe2acN_8OtL0",
   "STD 2": "1Nl3mRuv7E1CCfx6QnUB6znF2P6wpBSxEB0xPvfi2zoo",
   "STD 3": "1Cpvtlgf-1typfD2KoKGFIfSMNPPhK1jrMIm_J8bOKXr1nFLT5yFU",
   "STD 4": "1_XqEAcGKpjzC3F0XdhWro930OFF34DW3QgEbJNurQww",
-  // "STD 6": "1x4aoTQHilXdKN9lvJO2Gmx_GLTBK9d9miRgibqPwv5c",
+  "STD 6": "16OYJJG_ZArTlJUPTwDqZPmSnXVaWx02R-dDGuyUDRVQ",
   // "STD 9": "1djB6kghDjlDYGmt8qgDsPxmtAJuyouHtC9k6kM3jFuI",
 };
 import madrassaLogo from "../assets/madrassaLogo.png";

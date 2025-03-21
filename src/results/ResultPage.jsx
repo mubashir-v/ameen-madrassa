@@ -123,7 +123,7 @@ function GoogleSheetData() {
         <div className="flex  md:flex-row  md:gap-8 gap-2 w-full h-full p-2 items-center justify-center">
           <img className="h-24" src={madrassaLogo} />
           <p className="text-gray-500 text-lg font-bold">
-            MUNAWWIRUL ISLAM MADRASSA AREKERE
+            ALIF MORAL ACADEMY JP NAGAR
           </p>
         </div>
       </div>
@@ -191,7 +191,7 @@ function GoogleSheetData() {
               <div className="flex h-24 border w-full py-3 px-8 justify-center items-center bg-green-200">
                 <img className="h-24" src={madrassaLogo} />
                 <p className="text-gray-500 text-lg font-bold">
-                  MUNAWWIRUL ISLAM MADRASSA AREKERE
+                  ALIF MORAL ACADEMY JP NAGAR
                 </p>
               </div>
               <div className="flex-1 w-full overflow-auto p-8 bg-blue-100">

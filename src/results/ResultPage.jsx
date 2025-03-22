@@ -24,7 +24,7 @@ const classOptions = [
 const sheetIds = {
   "STD 1": "1QNhThPdOSeQ0RkdLpsGVyPLn0tj5xIpVe2acN_8OtL0",
   "STD 2": "1Nl3mRuv7E1CCfx6QnUB6znF2P6wpBSxEB0xPvfi2zoo",
-  "STD 3": "1Cpvtlgf-1typfD2KoKGFIfSMNPPhK1jrMIm_J8bOKXr1nFLT5yFU",
+  "STD 3": "1typfD2KoKGFIfSMNPPhK1jrMIm_J8bOKXr1nFLT5yFU",
   "STD 4": "1_XqEAcGKpjzC3F0XdhWro930OFF34DW3QgEbJNurQww",
   "STD 6": "16OYJJG_ZArTlJUPTwDqZPmSnXVaWx02R-dDGuyUDRVQ",
   // "STD 9": "1djB6kghDjlDYGmt8qgDsPxmtAJuyouHtC9k6kM3jFuI",
